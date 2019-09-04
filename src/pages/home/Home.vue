@@ -53,7 +53,7 @@
 			},
 			lookmore: function() { //分页，查看更多
 				var that = this;
-				that.$http.post("http://m.5g.me/jfscmx/", {
+				that.$http.post("http://127.0.0.1:8080/static/jfscmx.json", {
 					page: page
 				}, {
 					emulateJSON: true
